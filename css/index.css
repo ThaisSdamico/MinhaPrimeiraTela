@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #000
+}
+
+#login {
+    text-align: center
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.caixa img {
+    width: 350px;
+    margin-bottom: 15px
+}
+
+.caixa h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #000
+}
+
+.email input,
+.senha input {
+    border-radius: 5px;
+    border: 2px solid #6A6A6A;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    box-sizing: border-box
+}
+
+.senha input {
+    margin-top: 20px
+}
+
+.email input::placeholder,
+.senha input::placeholder {
+    color: #6A6A6A;
+    font-size: 20px
+}
+
+.email input:focus,
+.senha input:focus {
+    outline: none
+}
+
+.entrar input {
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px
+}
+
+.entrar p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000
+}
+
+.entrar p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000
+}
+
+.recuperacao-senha {
+    position: fixed;
+    bottom: 25px;
+    width: 100%
+}
+
+.recuperacao-senha p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000
+}
+
+.recuperacao-senha p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000
+}
